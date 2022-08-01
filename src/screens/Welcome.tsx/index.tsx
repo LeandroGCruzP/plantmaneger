@@ -1,13 +1,13 @@
 import { Image, SafeAreaView, StyleSheet, Text, TouchableOpacity } from 'react-native'
+import wateringImg from '../../assets/watering.png'
 import colors from '../../styles/colors'
-import wateringImg from '../assets/watering.png'
 
 export function Welcome() {
   return (
     <SafeAreaView style={styles.container} >
       <Text style={styles.title} >
-        Gerencia {'/n'}
-        suas plantas {'/n'}
+        Gerencia {'\n'}
+        suas plantas {'\n'}
         de forma fácil
       </Text>
 
