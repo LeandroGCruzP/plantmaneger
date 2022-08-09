@@ -1,8 +1,8 @@
-import Rn from 'react-native'
+import Native from 'react-native'
 import colors from '../../styles/colors'
 import fonts from '../../styles/fonts'
 
-export const styles = Rn.StyleSheet.create({
+export const styles = Native.StyleSheet.create({
   container: {
     flex: 1,
   },
@@ -29,7 +29,7 @@ export const styles = Rn.StyleSheet.create({
     color: colors.heading,
   },
   image: {
-    height: Rn.Dimensions.get('window').width * 0.7,
+    height: Native.Dimensions.get('window').width * 0.7,
   },
   button: {
     backgroundColor: colors.green,

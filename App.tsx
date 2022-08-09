@@ -1,8 +1,8 @@
 import { Jost_400Regular, Jost_600SemiBold, useFonts } from '@expo-google-fonts/jost'
 import * as SplashScreen from 'expo-splash-screen'
 import React from 'react'
-import Rn from 'react-native'
-import { Welcome } from './src/screens/Welcome'
+import { View } from 'react-native'
+import { UserIdentification } from './src/screens/UserIdentification'
 
 export default function App() {
   const [ fontsLoaded ] = useFonts({
@@ -21,8 +21,8 @@ export default function App() {
   }
 
   return (
-    <Rn.View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} onLayout={onLayoutRootView} >
-      <Welcome />
-    </Rn.View>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} onLayout={onLayoutRootView} >
+      <UserIdentification />
+    </View>
   )
 }
