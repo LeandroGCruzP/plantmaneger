@@ -1060,6 +1060,11 @@
     "@babel/helper-validator-identifier" "^7.18.6"
     to-fast-properties "^2.0.0"
 
+"@expo-google-fonts/jost@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/jost/-/jost-0.2.2.tgz#959140157a7884223dd9b2fc0398327f6ceac417"
+  integrity sha512-Pl5RlTyflzdYtsb6Eun1SLZhkC6VYoXjTb9mrxDwubR5ColOufoKGxqnwS4mqoI9CHhL5bkeINpqyrjjhpGaVw==
+
 "@expo/bunyan@4.0.0", "@expo/bunyan@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@expo/bunyan/-/bunyan-4.0.0.tgz#be0c1de943c7987a9fbd309ea0b1acd605890c7b"
